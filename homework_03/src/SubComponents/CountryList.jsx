@@ -78,6 +78,7 @@ export default class CountryList extends React.Component {
   }
 }
 
+// added this to print the information for the people
 export class CountryListInformation extends React.Component {
   render() {
     return (

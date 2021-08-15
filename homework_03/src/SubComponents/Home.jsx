@@ -104,6 +104,8 @@ export default class Home extends React.Component {
           {this.state.renderPeoplesList ? "HIDE" : "SHOW"}
         </button>
 
+        {/* from here its the the part of the code to print the peoples information... i added in the countryList a new class 
+          just to print the information below */}
         <div>
           {this.state.renderPeoplesInfos && (
             <CountryListInformation people={this.state.people} />
